@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiSass, SiStyledcomponents, SiBootstrap, SiNpm } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs, SiNodedotjs, SiTailwindcss, SiSass, SiStyledcomponents, SiBootstrap, SiNpm, SiTypescript } from "react-icons/si";
 
 
 
@@ -40,6 +40,7 @@ const Skills = () => {
                             { icon: <SiHtml5 className="text-orange-600 object-cover transition-transform duration-300 hover:scale-110" />, label: 'HTML' },
                             { icon: <SiCss3 className="text-blue-600 object-cover transition-transform duration-300 hover:scale-110" />, label: 'CSS' },
                             { icon: <SiJavascript className="text-yellow-400 object-cover transition-transform duration-300 hover:scale-110" />, label: 'JAVASCRIPT' },
+                            { icon: <SiTypescript className="text-blue-500 object-cover transition-transform duration-300 hover:scale-110" />, label: 'TYPESCRIPT' },
                             { icon: <SiReact className="text-blue-400 animate-spin object-cover transition-transform duration-300 hover:scale-110" />, label: 'REACT JS' },
                             { icon: <SiNextdotjs className="object-cover transition-transform duration-300 hover:scale-110"/>, label: 'NEXT JS' },
                             { icon: <SiNodedotjs className="text-green-600 object-cover transition-transform duration-300 hover:scale-110" />, label: 'NODE JS' },
