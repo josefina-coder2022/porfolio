@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -7,26 +7,33 @@ import imagen2 from '../../assets/imagen2.png'
 import imagen3 from '../../assets/imagen3.png'
 import imagen4 from '../../assets/imagen4.png'
 import imagen5 from '../../assets/imagen5.png'
+import imagen6 from '../../assets/imagen6.png'
+
 
 
 const Proyectos = () => {
 
     const listProjects = [
         {
-            id: 1, image: imagen1, title: 'Ecommerce', description: 'Las tecnologías utilizadas para el desarrollo de ésta aplicación son React Js, CSS, Bootstrap, Hooks, APIs, Context y Firebase.', github: 'https://ecommerce-clotheshop.netlify.app/'
+            id: 1, image: imagen1, title: 'Lista de Tareas', description: 'Las tecnologías que utilice para el desarrollo de ésta aplicación son React Js y Typescript.', github: 'https://agenda-tareas-react-ts.netlify.app/',
+        },
+        {
+            id: 2, image: imagen2, title: 'Ecommerce', description: 'Las tecnologías que utilice para el desarrollo de ésta aplicación son React Js, CSS, Bootstrap, Hooks, APIs, Context y Firebase.', github: 'https://ecommerce-clotheshop.netlify.app/'
+        },
+    
+        {
+            id: 3, image: imagen3, title: 'Guyon Inmobiliaria', description: 'Las tecnologías que utilice en el desarrollo de ésta aplicación son HTML, CSS, JavaScript y Bootstrap.', github: 'https://josefina-coder2022.github.io/app-guyon/',
             },
         {
-            id: 2, image: imagen2, title: 'Guyon Inmobiliaria', description: 'Las tecnologías que utilice en el desarrollo de ésta aplicación son HTML, CSS, JavaScript y Bootstrap.', github: 'https://josefina-coder2022.github.io/app-guyon/',
+            id: 4, image: imagen4, title: 'Resto - La Meson', description: 'Las tecnologías que utilice en el desarrollo de ésta aplicación son HTML, CSS, SASS y Bootstrap.', github: 'https://josefina-coder2022.github.io/laMaison/',
             },
         {
-            id: 3, image: imagen3, title: 'Resto - La Meson', description: 'Las tecnologías que utilice en el desarrollo de ésta aplicación son HTML, CSS, SASS y Bootstrap.', github: 'https://josefina-coder2022.github.io/laMaison/',
-           },
-        {
-            id: 4, image: imagen4, title: 'Centro Estetica', description: 'Desarrollo de sitio institucional. Las tecnologías que utilice para desarrollar el sitio fueron HTML y CSS.', github: 'https://josefina-coder2022.github.io/app-centro-estetica/',
+            id: 5, image: imagen5, title: 'Centro Estetica', description: 'Desarrollo de sitio institucional. Las tecnologías que utilice para desarrollar el sitio fueron HTML y CSS.', github: 'https://josefina-coder2022.github.io/app-centro-estetica/',
             },
         {
-            id: 4, image: imagen5, title: 'Pomess', description: 'Desarrollo de sitio institucional. Las tecnologías que utilice para desarrollar el sitio fueron HTML y CSS.', github: 'https://josefina-coder2022.github.io/pomess-web/',
-            },
+            id: 6, image: imagen6, title: 'Pomess', description: 'Desarrollo de sitio institucional. Las tecnologías que utilice para desarrollar el sitio fueron HTML y CSS.', github: 'https://josefina-coder2022.github.io/pomess-web/',
+            }
+        
     ];
 
     const settings = {

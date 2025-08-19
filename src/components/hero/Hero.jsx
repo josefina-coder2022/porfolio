@@ -21,7 +21,7 @@ const Hero = () => {
             index++;
             if (index === fullText.length) {
                 clearInterval(interval);
-                setTimeout(() => setShowEmoji(true), 500); // aparece después de escribir todo
+                setTimeout(() => setShowEmoji(true), 500); // emoji aparece después de escribir todo
             }
         }, 50); // velocidad del tipeo
 
