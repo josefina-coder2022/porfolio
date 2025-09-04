@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 const Navbar = () => {
 
     const listNavbar = [
         { name: 'Inicio', link: '#inicio' },
         { name: 'Sobre Mi', link: '#sobremi' },
-        { name: 'Skilles', link: '#skilles' },
+        { name: 'Skills', link: '#skills' },
         { name: 'Experiencia', link: '#experiencia' },
         { name: 'Proyectos', link: '#proyectos' },
     ];

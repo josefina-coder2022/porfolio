@@ -1,9 +1,9 @@
-import React from 'react'
+
 import Navbar from '../navbar/Navbar'
 import img from '../../assets/img-hero.jpg'
 import imagen2 from '../../assets/imagen2-hero.jpeg'
 import { FaGrinBeam } from 'react-icons/fa'
-import CV from './cv-josefinasirito.pdf'
+import CV from './CV-JosefinaSirito.pdf'
 import { useEffect, useState } from "react";
 
 
